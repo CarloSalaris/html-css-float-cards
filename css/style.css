@@ -4,13 +4,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 18px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 a {
     text-decoration: none;
     color: #17ccf2;
+    font-size: 16px;
 }
 
 .align-center {
@@ -29,13 +30,12 @@ a {
 /* Intestazione */
 
 header {
-    margin: 40px;
+    margin: 50px;
 }
 
 header h1 {
     color: #e43170;
     font-size: 40px;
-
     
 }
 
@@ -43,11 +43,14 @@ header h1 {
 
     /* Grid di id cards */
 
+    .grid {
+        margin-top: 45px;
+    }
 
     /* Righe orizzontali */
 
     .row {
-        margin: 40px 0px;
+        margin-bottom: 40px;
     }
 
     .row::after {
@@ -87,7 +90,11 @@ header h1 {
             float: left;
             margin: 10px;
             color: #fff;
-            line-height: 170%;
+            line-height: 140%;
+        }
+
+        .col .info .job {
+            font-size: 16px;
         }
 
 /* regole DEBUG */
