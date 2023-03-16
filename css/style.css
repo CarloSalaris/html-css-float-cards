@@ -1,0 +1,73 @@
+
+/* regole generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+/* contenitore */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Intestazione */
+
+header {
+    margin: 40px;
+    color: #e43170;
+}
+
+/* corpo principale */
+
+    /* Grid di id cards */
+
+
+    /* Righe orizzontali */
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+        /* Colonne */
+
+        .col img {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .col .info {
+            float: left;
+            margin: 10px;
+            color: #fff;
+        }
+
+/* regole DEBUG */
+
+.row {
+    border: solid 4px black;
+    margin: 40px 0px;
+}
+
+.col {
+    float: left;
+    width: calc((100%/3) - 20px);
+    background-color: #0f0e17;
+    border: solid 2px rgb(216, 118, 118);
+    margin: 0px 10px
+}
