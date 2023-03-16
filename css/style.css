@@ -4,10 +4,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a {
     text-decoration: none;
+    color: #17ccf2;
 }
 
 .align-center {
@@ -27,7 +30,13 @@ a {
 
 header {
     margin: 40px;
+}
+
+header h1 {
     color: #e43170;
+    font-size: 40px;
+
+    
 }
 
 /* corpo principale */
@@ -36,6 +45,10 @@ header {
 
 
     /* Righe orizzontali */
+
+    .row {
+        margin: 40px 0px;
+    }
 
     .row::after {
         content: "";
@@ -46,8 +59,27 @@ header {
 
         /* Colonne */
 
+        .col {
+            float: left;
+            width: calc((100%/3) - 20px);
+            background-color: #0f0e17;
+        }
+
+        .col.left {
+            margin-right: 20px;
+        }
+
+        .col.center {
+            margin: 0px 10px;
+        }
+
+        .col.right {
+            margin-left: 20px;
+        }
+
         .col img {
             float: left;
+            height: 100px;
             margin-right: 10px;
         }
 
@@ -55,19 +87,19 @@ header {
             float: left;
             margin: 10px;
             color: #fff;
+            line-height: 170%;
         }
 
 /* regole DEBUG */
 
-.row {
+/* .row {
     border: solid 4px black;
     margin: 40px 0px;
-}
+} */
 
-.col {
+/* .col {
     float: left;
     width: calc((100%/3) - 20px);
     background-color: #0f0e17;
-    border: solid 2px rgb(216, 118, 118);
-    margin: 0px 10px
-}
+    border: solid 2px #e53170;
+} */
