@@ -66,6 +66,7 @@ header h1 {
             float: left;
             width: calc((100%/3) - 20px);
             background-color: #0f0e17;
+            box-shadow: 1px 1px 30px -10px #0f0e17 ;
         }
 
         .col.left {
