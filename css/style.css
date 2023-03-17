@@ -53,7 +53,7 @@ header h1 {
         margin-bottom: 40px;
     }
 
-    .row::after {
+    .clearfix::after {
         content: "";
         display: table;
         clear: both;
