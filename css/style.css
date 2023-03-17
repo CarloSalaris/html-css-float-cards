@@ -70,15 +70,15 @@ header h1 {
         }
 
         .col.left {
-            margin-right: 20px;
+            /* margin-right: 20px; */
         }
 
         .col.center {
-            margin: 0px 10px;
+            margin: 0px 30px;
         }
 
         .col.right {
-            margin-left: 20px;
+            /* margin-left: 20px; */
         }
 
         .col img {
