@@ -1,0 +1,97 @@
+
+/* regole generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #17ccf2;
+    font-size: 16px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+/* contenitore */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* Intestazione */
+
+header {
+    margin: 50px;
+}
+
+header h1 {
+    color: #e43170;
+    font-size: 40px;
+}
+
+/* corpo principale */
+
+    /* Grid id cards */
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    /* Righe orizzontali */
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+        /* Colonne */
+
+        .col {
+            display: flex;
+            flex-wrap: wrap;
+            width: 30%;
+            background-color: #0f0e17;
+            box-shadow: 1px 1px 30px -10px #0f0e17 ;
+        }
+
+        .col img {
+            height: 100px;
+        }
+
+        .col .info {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .col .info .job {
+            font-size: 16px;
+        }
+
+/* regole DEBUG */
+
+/* .row {
+    border: solid 4px black;
+    margin: 40px 0px;
+} */
+
+/* .col {
+    float: left;
+    width: calc((100%/3) - 20px);
+    background-color: #0f0e17;
+    border: solid 2px #e53170;
+} */
